@@ -4,4 +4,4 @@
 yum update -y
 yum insteall -y httpd
 systemctl start httpd
-echo "<h1>Hello from $(hostname -f)</h1>" /car/www/html/index.html
+echo "<h1>Hello from $(hostname -f)</h1>" /var/www/html/index.html
